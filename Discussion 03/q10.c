@@ -1,6 +1,7 @@
 #include <sys/types.h>
 #include <stdio.h>
 #include <unistd.h>
+#include <sys/wait.h>
 
 #define SIZE 5
 int num[SIZE] = {0, 1, 2, 3, 4};
